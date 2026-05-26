@@ -6,11 +6,11 @@ export class Boss {
     this.y = y;
 
     // BIGGER BOSS
-    this.radius = 120;
+    this.radius = 80;
 
     this.speed = 1.5;
 
-    this.maxHp = 1000;
+    this.maxHp = 1500;
     this.hp = this.maxHp;
 
     this.damage = 25;
