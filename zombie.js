@@ -10,7 +10,7 @@ export class Zombie {
     this.maxHp = 40 + level * 30;
     this.hp = this.maxHp;
 
-    this.damage = 10;
+    this.damage = 40;
   }
 
   update(player) {
