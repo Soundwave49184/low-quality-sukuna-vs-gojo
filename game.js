@@ -163,7 +163,7 @@ function updateZombies() {
 
     if (distance < player.radius + zombie.radius) {
 
-      player.hp -= 0.1;
+      player.hp -= 0.5;
 
       document.getElementById('hp').innerText =
         Math.floor(player.hp);
